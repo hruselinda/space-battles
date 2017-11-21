@@ -1,0 +1,175 @@
+body{
+    background-color: #000;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.3em;
+    font-variant: small-caps;
+}
+
+.error{
+    color: pink;
+}
+
+.clear{
+    clear: both;
+}
+
+.page-header{
+    margin-top: 0;
+}
+.page-header a,
+.page-header a:hover{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+caption{
+    color: #fff;
+    font-weight: bold;
+}
+
+.table{
+    margin: 20px auto;
+    font-size:1.3em;
+    font-variant: small-caps;
+    background-color: #D3D3D3;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.table thead tr th a{
+    color: darkcyan;
+    text-align: right;
+}
+
+.table thead tr th{
+    border-radius: 45px;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+.table tbody tr:last-child:hover td:first-child{
+    border-bottom-left-radius: 15px;
+}
+
+.table tbody tr:last-child:hover td:last-child{
+    border-bottom-right-radius: 15px;
+}
+
+.battle-box{
+    background-color: #D3D3D3;
+    display: block;
+    background-size: 35%;
+    height: auto;
+    opacity: 0.9;
+}
+.battle-box h2{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+ .battle-box form h5 {
+     margin-top: 20%;
+     margin-bottom: 0;
+ }
+
+ .vs{
+     background: url("vs.png") no-repeat center;
+     background-size: 80%;
+     height: 130px;
+ }
+
+label{
+    font-size: medium;
+}
+
+.space-for-battle{
+    height: 40px;
+}
+
+select{
+    margin-top: 6px;
+}
+
+.btn-danger{
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.border{
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.result-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding:3% 10%;
+    background-color: #D3D3D3;
+    opacity:0.9;
+}
+
+.result-box h1.audiowide{
+    font-family: 'Audiowide', cursive;
+}
+
+.result-box p{
+    font-weight: bold;
+}
+
+a{
+    color: #ffffe6;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #f7ecb5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.jedi-power-wins{
+    height: 32%;
+    background-image: url("jedi.jpg");
+    background-size: cover;
+}
+
+.jedi-power-wins-xs{
+    height: 16%;
+    background-image: url("jedi.jpg");
+    background-size: cover;
+}
+
+.destroyed{
+    height: 32%;
+    background-image: url("destroyed.jpg");
+    background-size: cover;
+}
+
+.destroyed-xs{
+    height: 16%;
+    background-image: url("destroyed.jpg");
+    background-size: cover;
+}
+.nobody-wins{
+    height: 32%;
+    background-image: url("nobody.jpg");
+    background-size: cover;
+}
+.nobody-wins-xs{
+    height: 16%;
+    background-image: url("nobody.jpg");
+    background-size: cover;
+}
+
+.after-battle {
+    padding: 25px 0 0;
+}
+
+footer{
+    margin-top: 40px;
+    font-size: medium;
+    color: peachpuff;
+}
